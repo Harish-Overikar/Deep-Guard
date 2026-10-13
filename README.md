@@ -70,11 +70,9 @@ This result reflects performance on the project's evaluated test dataset. It doe
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/Deep-Guard.git
+git clone https://github.com/Harish-Overikar/Deep-Guard.git
 cd Deep-Guard
 ```
-
-Replace `YOUR-USERNAME` with your GitHub username.
 
 ### 2. Create a virtual environment
 
@@ -91,15 +89,8 @@ python -m venv .venv
 python -m pip install -r requirements.txt
 ```
 
-Ensure that `requirements.txt` contains the required packages and compatible versions for your application.
 
-### 4. Obtain the trained model
-
-Ensure that the trained model file, `deepfake_model.keras`, is located in the project root alongside `app.py` and `predict.py`.
-
-If the model is hosted separately, download it using the instructions provided in the repository.
-
-### 5. Run the application
+### 4. Run the application
 
 ```bash
 streamlit run app.py
